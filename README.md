@@ -21,15 +21,16 @@ san-deploy -h
 
 ## 使用
 
-工程中需要增加 san.deploy.config.js 用于配置远程部署的目录相关信息
+工程中需要增加 san.deploy.config.js 用于配置远程部署的目录相关信息。
 
-文件示例如下:
+以 `san deploy test` 命令为例，推送至 test指定的远程环境。san.deploy.config.js 文件示例如下:
 
 ```js
 
 module.exports = {
-    xyj: {
+    test: {
         root: 'output', //  默认 "."
+        disableFsr: false, // 默认使用 fsr，普通脚本接收服务可置为true
         ignore: [/(^|[\/\\])\../, '**/node_modules/**'], // string or array 符合 anymatch 规范
         host: 'http://machine.com:8999', // fsr使用
         receiver: '', // 普通上传使用

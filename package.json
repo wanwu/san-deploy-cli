@@ -1,6 +1,6 @@
 {
     "name": "san-deploy-cli",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "san deploy cli",
     "main": "src/index.ts",
     "scripts": {
@@ -24,7 +24,7 @@
     "license": "MIT",
     "dependencies": {
         "colorette": "^2.0.16",
-        "san-cli-deploy": "0.0.1",
+        "san-cli-deploy": "^0.0.2",
         "semver": "^7.1.1",
         "update-notifier": "^5.1.0",
         "yargs": "^17.2.1"
