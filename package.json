@@ -1,0 +1,37 @@
+{
+    "name": "san-deploy-cli",
+    "version": "0.0.1",
+    "description": "san deploy cli",
+    "main": "src/index.ts",
+    "scripts": {
+        "release": "tsc"
+    },
+    "scriptName": "san-deploy",
+    "engines": {
+        "node": ">=12.13.0"
+    },
+    "bin": {
+        "san-deploy": "dist/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [
+        "cli",
+        "san deploy"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "colorette": "^2.0.16",
+        "san-cli-deploy": "0.0.1",
+        "semver": "^7.1.1",
+        "update-notifier": "^5.1.0",
+        "yargs": "^17.2.1"
+    },
+    "devDependencies": {
+        "@types/node": "^18.14.6",
+        "@types/semver": "^7.3.9",
+        "@types/update-notifier": "^5.1.0"
+    }
+}

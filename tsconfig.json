@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "outDir": "./dist",
+        "declarationDir": "./dist",
+        "declaration": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "stripInternal": true,
+        "downlevelIteration": true,
+        "noUnusedLocals": true,
+        "allowSyntheticDefaultImports": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "sourceMap": true,
+        "baseUrl": "./"
+    },
+    "exclude": ["node_modules", "dist", "**/*.spec.ts", "lib", "examples", "index.js"]
+}

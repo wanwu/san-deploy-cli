@@ -1,0 +1,6 @@
+__tests__
+src/**
+tsconfig.json
+yarn.lock
+yarn-error.log
+node_modules/**
