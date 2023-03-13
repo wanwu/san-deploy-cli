@@ -23,7 +23,7 @@ san-deploy -h
 
 工程中需要增加 san.deploy.config.js 用于配置远程部署的目录相关信息。
 
-以 `san deploy test` 命令为例，推送至 test指定的远程环境。san.deploy.config.js 文件示例如下:
+以 `san-deploy test` 命令为例，推送至 test指定的远程环境。san.deploy.config.js 文件示例如下:
 
 ```js
 
